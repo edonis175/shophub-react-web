@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { getProducts } from "../data/products";
 import ProductCard from "../components/ProductCard";
+import { set } from "react-hook-form";
 
 export default function Home() {
   const products = getProducts(); // Assume this function fetches product data from a local file or an API
