@@ -272,13 +272,11 @@ body {
 .auth-link {
   color: #007bff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 900;
   cursor: pointer;
+  border: none;
+  background: none;
 }
-
-/* .auth-link:hover {
-  text-decoration: underline;
-} */
 
 .checkout-container {
   display: grid;
