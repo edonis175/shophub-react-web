@@ -1,16 +1,41 @@
-# React + Vite
+# ShopHub — Modern React Shopping Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopHub is a modern, responsive e‑commerce UI built with React and Vite. It provides a clean product browsing experience, product detail pages, authentication flow, and a simple cart/checkout journey.
 
-Currently, two official plugins are available:
+![ShopHub storefront preview](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500&h=500&fit=crop)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## React Compiler
+- Responsive layout and reusable UI components
+- Product listing with detailed product pages
+- Authentication screen (login/register UX)
+- Cart management with checkout flow
+- Context-based state management for auth and cart
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React + Vite
+- Context API for state management
+- CSS modules via component-scoped styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. Install dependencies:
+   - npm install
+2. Start the development server:
+   - npm run dev
+3. Build for production:
+   - npm run build
+4. Preview the production build:
+   - npm run preview
+
+## Project Structure
+
+- src/components — shared UI components (Navbar, ProductCard)
+- src/pages — route pages (Home, ProductDetails, Auth, Checkout)
+- src/context — app contexts (AuthContext, CartContext)
+- src/data — mock product data
+
+## Notes
+
+This project is a UI-focused storefront and uses mock data for products. You can connect a real backend by replacing the data layer and wiring API calls.
