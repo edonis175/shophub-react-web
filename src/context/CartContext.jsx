@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import { getProductById } from "/Users/Admin/OneDrive/Desktop/shophub-react-web/src/data/products";
+import { getProductById } from "../data/products";
 
 export const CartContext = createContext(null);
 
