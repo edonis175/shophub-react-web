@@ -76,7 +76,7 @@ const products = [
     name: "Bluetooth Speaker",
     price: 59.99,
     image:
-      "https://images.unsplash.com/photo-1512446816042-444d641267f5?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
       "Portable Bluetooth speaker with deep bass, 12-hour playtime, and water-resistant design.",
   },
@@ -85,7 +85,7 @@ const products = [
     name: "Noise Cancelling Earbuds",
     price: 119.99,
     image:
-      "https://images.unsplash.com/photo-1518442661905-9e2a4b3f30f4?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1733641839419-7b9de83d7a0e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
       "True wireless earbuds with active noise cancellation and compact charging case.",
   },
